@@ -1,41 +1,3 @@
-/* Estilos para inicio se sesion */
-.logearse {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-family: Tahoma;
-    font-weight: bold;
-    font-size: 25px;
-    color: #7F7F7F;
-}
-
-.email-password p{
-    margin: 40px 0px 40px 0px;
-}
-
-.email-password input {
-    padding: 20px 150px 20px 10px;
-    font-family:'Lucida Sans';
-    border-color: gray;
-    border-style: none;
-}
-
-.login-button {
-    margin-top: 60px;
-}
-
-.login-button button {
-    font-family: Arial;
-    padding: 15px 40px 15px 40px;
-    text-align: center;
-    border-color: #000957;
-    background-color: #F6F5F2;
-    border-style: double;
-    color: #000957;
-    font-weight: bold ;
-}
-
-
 /* Estilos para registro */
  .registrarse {
     flex-direction: column;
@@ -80,12 +42,12 @@ main {
     flex-direction: row;
 }
 
-.picture {
+.imagen-concierto {
     display:flex;
     justify-content: space-around;
 }
 
-.imagen-concierto {
+.imagen-concierto img {
     max-width: 90%;
 } 
 
