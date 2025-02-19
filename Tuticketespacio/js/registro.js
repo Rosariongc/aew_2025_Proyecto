@@ -36,3 +36,23 @@
             }
           });
     });
+
+    $(document).ready(function () {
+      $(".imagen-concierto").hover(
+          function() {
+              $(this).css("transform", "scale(1.05)");
+          }, 
+          function(){
+              $(this).css("transform", "scale(1)");
+          }
+      )
+      $("#boton-registrarse").hover(
+        function() {
+            $(this).css("background-color", "gray");
+        }, 
+        function() {
+          $(this).css("background-color", "#F6F5F2");
+        }
+    )
+  })
+
